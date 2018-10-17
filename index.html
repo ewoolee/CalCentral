@@ -1,8 +1,9 @@
 <html>
 <head>
-		<link rel="stylesheet" type="text/css" href="assets/css/cartstyle.css" />
-		<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|Open+Sans" rel="stylesheet">
-		<title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/cartstyle.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,900|Open+Sans" rel="stylesheet">
+    <title>Shopping Cart</title>
 </head>
 <body>
 	 <div class = "nav-bar" >
@@ -31,13 +32,14 @@
   </div>
 	<img id="bg" src="http://www.slate.com/content/dam/slate/articles/life/inside_higher_ed/2015/10/151015_HIED_UC-Berkeley-Professor.jpg.CROP.promo-xlarge2.jpg">
 	<div id="overlay"></div>	
-		<div id="container">
+		<div class="row" id="container">
+            <div class="col-7">
 			<div id="term">
 				Spring 2017
 				<div id="change">Change Term</div>
 			</div>
-			<div id="cart">
-				<div id="right">
+			<div class="row" id="cart">
+				<div class="col-9" id="right">
 					<div id="key">
 						<img src="assets/img/open.gif">
 						Open
@@ -85,7 +87,7 @@
 						<div id="action">delete</div>
 					</div>
 				</div>
-				<div id="left">
+				<div class="col-3" id="left">
 					<div id="innertxt">
 						<b>Add to Cart: </b><br>
 						<br>
@@ -96,12 +98,12 @@
 						</div>
 						<div id="find">
 							<input type="button" value="Search Classes">
-							<input type="button" value="Schedule Planner">
+							<input type="button" value="Planner">
 						</div>
 					</div>
-				</div>			
+                </div></div>			
 			</div>
-			<div id="schedule">
+			<div class="col-5" id="schedule">
 				Current Schedule
 				<table>
 					<tr>

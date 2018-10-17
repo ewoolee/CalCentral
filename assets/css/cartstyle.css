@@ -104,13 +104,9 @@ nav {
 
 
 #cart{
-	float: left;
 	background-color: #EEEEEE;
-	width: 750px;
-	height: 500px;
-	margin-left: 1.5em;
-	margin-top: 1em;
-	padding: 20;
+	margin: 1em auto;
+    padding: 1em;
 	z-index:initial;
 	border-radius: 8px;
 }
@@ -120,8 +116,8 @@ nav {
 	height: 450px;
 	background-color: white;
 	float: right;
-	border-top-right-radius: 8px;
-	border-bottom-right-radius: 8px;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
 }
 
 #selected{
@@ -149,8 +145,8 @@ nav {
 	height: 450px;
 	background-color: #DDD5C7;
 	float: left;
-	border-top-left-radius: 8px;
-	border-bottom-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
 }
 
 #innertxt{
@@ -198,8 +194,7 @@ nav {
 
 #schedule {
 	float: right;
-	margin-right: 1.5em;
-	margin-top: 1em;
+	margin-top: 3em;
 	background-color: #EEEEEE;
 	padding: 15px;
 	border-radius: 8px;
@@ -209,6 +204,7 @@ nav {
 	margin-top: 15px;
 	background-color: white;
 	border-collapse: collapse;
+    width: inherit;
 	
 }
 
