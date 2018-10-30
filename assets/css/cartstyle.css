@@ -116,8 +116,9 @@ nav {
 	height: 450px;
 	background-color: white;
 	float: right;
-	border-top-left-radius: 8px;
-	border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	
 }
 
 #selected{
@@ -145,8 +146,8 @@ nav {
 	height: 450px;
 	background-color: #DDD5C7;
 	float: left;
-	border-top-right-radius: 8px;
-	border-bottom-right-radius: 8px;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
 }
 
 #innertxt{
